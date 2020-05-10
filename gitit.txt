@@ -1,0 +1,48 @@
+gitit.txt
+
+# create clone in current directory
+> git clone https://github.com/RochSchanen/conf.git
+
+# setup identity (once for all)
+> git config --global user.name  "..."
+> git config --global user.email "..."
+
+# git create repository
+> git remote add origin https://github.com/RochSchanen/conf
+> git remote -v
+origin	https://github.com/RochSchanen/conf (fetch)
+origin	https://github.com/RochSchanen/conf (push)
+ 
+# push orign
+> git push --set-upstream origin master
+
+# commit
+> git commit README.md -m "first commit"
+
+# commit all modified;
+> git commit -a
+
+> git push
+Username for 'https://github.com': RochSchanen
+Password for 'https://rochSchanen@github.com': ...
+
+# add file
+> git add "fileName1" "fileName2" ...
+
+# new branch
+> git checkout -b "branchName"
+
+# push branch
+> git push origin "branchName"
+
+# switch back to master
+> git checkout master
+
+# merge
+> git merge layout
+
+# use a file for the commit message
+> git commit -aF CommitMessage.txt
+
+# ignore files
+add patterns to the ".gitignore" file

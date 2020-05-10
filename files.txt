@@ -1,0 +1,8 @@
+files.txt
+
+A short description of the project files.
+
+- README.md : read it.
+- files.txt : this file.
+- gitit.txt : git help.
+- conf.py   : configuration file parser.
